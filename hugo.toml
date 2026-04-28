@@ -8,6 +8,8 @@ theme = "mainroad"
   authorbox = false
   pager = true
   post_meta = ["date", "categories"]
+  mainSections = ["posts"]
+  summaryLength = 70
 
 [params.sidebar]
   home = "right"
@@ -22,3 +24,19 @@ theme = "mainroad"
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[params.style]
+  custom_css = ["css/custom.css"]
+
+[params.style.vars]
+  highlightColor = "#e22d30"
+
+[[menu.main]]
+  name = "ホーム"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "カテゴリー"
+  url = "/categories/"
+  weight = 2
