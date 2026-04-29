@@ -102,7 +102,7 @@ div.logo__title::after {
   /* font-family: 'Zen Maru Gothic', sans-serif; */
   font-family: 'Klee One', sans-serif;
   display: block;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #333;
   margin-top: 25px;
