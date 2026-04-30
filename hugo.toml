@@ -49,3 +49,8 @@ theme = "mainroad"
   name = "プライバシーポリシー"
   url = "/privacy-policy/"
   weight = 3
+
+[[menu.main]]
+  name = "お問い合わせ"
+  url = "/contact/"
+  weight = 4
