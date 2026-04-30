@@ -44,3 +44,8 @@ theme = "mainroad"
 [services]
   [services.googleAnalytics]
     ID = "G-EDTXKNTBZC"
+
+[[menu.main]]
+  name = "プライバシーポリシー"
+  url = "/privacy-policy/"
+  weight = 3
