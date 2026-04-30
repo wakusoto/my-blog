@@ -40,3 +40,7 @@ theme = "mainroad"
   name = "カテゴリー"
   url = "/categories/"
   weight = 2
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-EDTXKNTBZC"
